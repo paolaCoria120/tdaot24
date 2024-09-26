@@ -51,7 +51,7 @@ complejo sumar(complejo num1, complejo num2)
 /**                                                                                                                                                                                  
  * @brief Multiplica dos números complejos.                                                                                                                                          
  * Formula:                                                                                                                                                                          
- * (a + bi) * (c + di) = (ac - bd) + (ad + bc)i                                                                                                                                      
+ * (a1 + b1i) * (a2 + b2i) = (a1a2 - b1b2) + (a1b2 + b1a2)i                                                                                                                                      
  * @param num1 el primer número complejo.                                                                                                                                            
  * @param num2 el segundo número complejo.                                                                                                                                           
  * @return Un número complejo que representa el producto de num1 y num2.                                                                                                             
