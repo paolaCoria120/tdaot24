@@ -8,7 +8,7 @@
 #include "header.h"
 
 /**                                                                                                                                                                                  
- * @brief Convierte dos cadenas de texto en un número.                                                                                                                               
+ * @brief Convierte dos cadenas de texto en un número complejo.                                                                                                                               
  * @param real Cadena de caracteres que representa la parte real del número complejo.                                                                                                
  * @param imaginario Cadena de caracteres que representa la parte imaginaria del número complejo.                                                                                    
  * @code  capturado.real = atof(real)                                                                                                                                                
