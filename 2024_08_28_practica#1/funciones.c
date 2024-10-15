@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 /*
-@description Función que determina si una frase es pangrama o no
+@brief Determina si una frase es pangrama o no
 @param frase es un arreglo que contiene una sola frase, con salto de linea 
 @return regresa 1 o 0 si la frase es pangrama o no
 */
@@ -51,7 +51,7 @@ int es_un_pangrama(char* frase)
 }
 
 /*
-@description Funcion que determina si un conjunto de frases es pangrama o no
+@brief Determina si un conjunto de frases es pangrama o no
 @param frases es un arreglo que contiene todas las frases 
 @return regresa el arreglo de resultados de la evaluacion de cada frase
 */
