@@ -1,3 +1,8 @@
+/**
+ * @file header.h
+ * @brief Definiciones y funciones para gestionar una lista de cumpleaños utilizando una lista doblemente enlazada.
+ */
+
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
@@ -5,6 +10,12 @@
 
 #define MAX_NOMBRE 50
 
+/**
+ * @struct lifo
+ * @brief Estructura que representa un nodo en la lista de cumpleaños.
+ * Cada nodo contiene información sobre un cumpleaños, incluyendo el día, mes, año,
+ * el nombre de la persona y punteros a los nodos anterior y siguiente.
+ */
 typedef struct lifo{
         int dia;
         int mes;
