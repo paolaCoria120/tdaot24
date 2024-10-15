@@ -1,3 +1,8 @@
+/**
+ * @file header.h
+ * @brief Definiciones de funciones para verificar pangramas en cadenas de texto.
+ */
+
 #ifndef HEADER_H
 #define HEADER_H
 
