@@ -1,5 +1,16 @@
-#include "header.h"
+/**
+ * @file funciones.c
+ * @brief Definiciones y funciones relacionadas con la gestión de una lista de cumpleaños.
+ */
 
+#include "header.h"
+/**
+ * @brief Muestra el menú de opciones para gestionar la lista de cumpleaños.
+ * Esta función presenta al usuario varias opciones para interactuar con una lista de cumpleaños,
+ * incluyendo la creación de una nueva lista, la impresión de la lista, la inserción de nodos, 
+ * y la eliminación de cumpleaños.
+ * @param raiz Doble puntero a la lista que representa la raíz de la lista de cumpleaños.
+ */
 void menu(lista **raiz){//referencia al apuntador del inicio de la lista
     int opcion,mesBuscado, eliminaDia;
     int dia, mes, anio;
