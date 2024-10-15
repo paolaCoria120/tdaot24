@@ -1,7 +1,20 @@
+/**
+ * @file principal.c
+ * @brief Programa principal para leer frases desde un archivo y determinar si son pangramas.
+ */
+
 #include <stdio.h>
 #include <stdlib.h>
 #include "header.h"
 
+/**
+ * @brief Función principal que ejecuta el programa.
+ * Toma un argumento de línea de comandos que debe ser el nombre de un archivo.
+ * Lee las frases desde el archivo, determina si cada una de ellas es un pangrama y muestra los resultados.
+ * @param argc Número de argumentos de línea de comandos.
+ * @param argv Arreglo de punteros a cadenas de caracteres que contiene los argumentos.
+ * @return Devuelve 0 si el programa se ejecuta correctamente, o 1 si hay un error en los argumentos o al abrir el archivo.
+ */
 int main(int argc, char* argv[])
 {
     if (argc !=2)
