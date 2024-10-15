@@ -1,3 +1,8 @@
+/**
+ * @file funciones.c
+ * @brief Funciones para determinar si una frase o un conjunto de frases es un pangrama.
+ */
+
 #include <stdio.h>
 
 /*
